@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://ryanbaaas2.github.io/CodeSpace",
+  "homepage": "https://ryanbaaas2.github.io/codespace",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://ryanbaaas2.github.io/CodeSpace'",
+    "build-gh": "parcel build --public-url 'https://ryanbaaas2.github.io/codespace'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
